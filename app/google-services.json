@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "764713428226",
+    "project_id": "petsmanagement-54994",
+    "storage_bucket": "petsmanagement-54994.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764713428226:android:a8f04b21f67ee1ab7fce1b",
+        "android_client_info": {
+          "package_name": "com.petsmanagement.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "764713428226-9muvuherpbpa6unhk5vvivaslp88535t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.petsmanagement.myapplication",
+            "certificate_hash": "9c32fe2025b1674c5fcd649ce59e42a2e8d0165e"
+          }
+        },
+        {
+          "client_id": "764713428226-buu2i9ddeqo17fl52bcf5nqum5r44her.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCM1SLKCGEHebJMHtCN-cL1LG5DujgygpI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "764713428226-buu2i9ddeqo17fl52bcf5nqum5r44her.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
