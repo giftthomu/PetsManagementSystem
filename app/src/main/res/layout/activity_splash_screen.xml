@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#021208"
+    android:background="#7EBD42"
     tools:context=".Splash_Screen">
     
     <ImageView
@@ -39,17 +39,18 @@
         android:layout_marginStart="70dp"
         android:layout_marginEnd="70dp"
         android:indeterminateTint="#ffffff" />
+
     <TextView
         android:id="@+id/text_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="developed by giftthomu@gmail.com"
-        android:textSize="12sp"
-        android:textColor="#bababa"
-        android:textAlignment="center"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="20dp"
-        android:fontFamily="@font/gift"/>
+        android:fontFamily="@font/gift"
+        android:text="developed by giftthomu@gmail.com"
+        android:textAlignment="center"
+        android:textColor="#3a3b3c"
+        android:textSize="12sp" />
 
 
 

@@ -4,11 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/giftthomu/AndroidStudioProjects/PetsManagement/app/src/main/res/drawable/edittext_background.xml" value="0.20052083333333334" />
+        <entry key="..\:/Users/giftthomu/AndroidStudioProjects/PetsManagement/app/src/main/res/layout/activity_admin.xml" value="0.184375" />
+        <entry key="..\:/Users/giftthomu/AndroidStudioProjects/PetsManagement/app/src/main/res/layout/activity_getting_started.xml" value="0.184375" />
         <entry key="..\:/Users/giftthomu/AndroidStudioProjects/PetsManagement/app/src/main/res/layout/activity_home.xml" value="0.2" />
         <entry key="..\:/Users/giftthomu/AndroidStudioProjects/PetsManagement/app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="..\:/Users/giftthomu/AndroidStudioProjects/PetsManagement/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/giftthomu/AndroidStudioProjects/PetsManagement/app/src/main/res/layout/activity_sign_up.xml" value="0.22" />
         <entry key="..\:/Users/giftthomu/AndroidStudioProjects/PetsManagement/app/src/main/res/layout/activity_splash_screen.xml" value="0.22" />
+        <entry key="..\:/Users/giftthomu/AndroidStudioProjects/PetsManagement/app/src/main/res/layout/copy.xml" value="0.1703125" />
       </map>
     </option>
   </component>

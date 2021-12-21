@@ -54,4 +54,10 @@ dependencies {
     //implementation 'com.google.firebase:firebase-auth:21:0.1'
     implementation 'com.google.firebase:firebase-firestore:24.0.0'
 
+    //design
+    implementation 'com.android.support:design:31.0.0'
+
+    //cardview
+    implementation 'andriodx.cardview:cardview:31.0.0'
+
 }
