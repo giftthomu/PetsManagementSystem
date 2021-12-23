@@ -18,5 +18,9 @@ class LoginActivity : AppCompatActivity() {
             val i = Intent(this, SignUpActivity::class.java)
             startActivity(i)
         }
+        btnLogin.setOnClickListener {
+            val i = Intent(this, DashboardAdmin::class.java)
+            startActivity(i)
+        }
     }
 }
