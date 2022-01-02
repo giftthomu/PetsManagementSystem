@@ -4,10 +4,11 @@ import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
 
 @Parcelize
-class ClientModel (
+class VetModel (
     val id : String = "",
-    val firstname: String = "",
-    val lastname: String = "",
-    val email: String = "",
+    val FirstName: String = "",
+    val LastName: String = "",
+    val VetType: String = "",
+    val Email: String = "",
     val password: String ="",
-    var usertype : String = "Client" ) : Parcelable
+    var usertype : String = "Vet") : Parcelable

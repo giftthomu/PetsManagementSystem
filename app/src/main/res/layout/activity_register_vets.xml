@@ -4,124 +4,128 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
+
     android:orientation="vertical"
-    tools:context=".RegisterVetsActivity">
+    tools:context=".SignUpActivity">
 
     <TextView
-        android:id="@+id/banner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/gift"
+        android:padding="12dp"
         android:text="Vet Registration"
+        android:textAlignment="center"
+        android:textSize="20dp"
         android:textStyle="bold"
-        android:textSize="30sp"
-        android:textAlignment="center"
-        android:fontFamily="@font/gift"
         android:textColor="#141F48"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginTop="50dp"/>
-
-    <TextView
-        android:id="@+id/bDes"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/gift"
-        android:text="Please register pet specialist below"
-        android:textSize="12sp"
-        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/gift"
+        android:padding="12dp"
+        android:text="Please Register Vets Specialist Here"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="#141F48"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/FirstName"
-        android:layout_width="380dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:ems="10"
-        android:hint="First Name"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/gift"
+        android:textColor="@color/colorText"
         android:inputType="text"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
-
+        android:background="@color/colorTextBackground"
+        android:hint="@string/First_Name"
+        android:padding="12dp"
+        />
     <EditText
         android:id="@+id/LastName"
-        android:layout_width="380dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:ems="10"
-        android:hint="Last Name"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/gift"
+        android:textColor="@color/colorText"
         android:inputType="text"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
-
-
-    <EditText
-        android:id="@+id/email"
-        android:layout_width="380dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:ems="10"
-        android:hint="Email"
-        android:inputType="textEmailAddress"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
-
+        android:background="@color/colorTextBackground"
+        android:hint="@string/Last_Name"
+        android:padding="12dp"
+        />
     <EditText
         android:id="@+id/VetType"
-        android:layout_width="380dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:ems="10"
-        android:hint="Vet Type"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/gift"
+        android:textColor="@color/colorText"
         android:inputType="text"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
-
+        android:background="@color/colorTextBackground"
+        android:hint="@string/Vet_Type"
+        android:padding="12dp"
+        />
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/gift"
+        android:textColor="@color/colorText"
+        android:inputType="textEmailAddress"
+        android:background="@color/colorTextBackground"
+        android:hint="@string/email"
+        android:padding="12dp"
+        />
     <EditText
         android:id="@+id/Password"
-        android:layout_width="380dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:ems="10"
-        android:hint="Password"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/gift"
+        android:textColor="@color/colorText"
         android:inputType="textPassword"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/colorTextBackground"
+        android:hint="@string/Password"
+        android:padding="12dp"
         />
 
+
+
     <Button
-        android:layout_width="380dp"
-        android:layout_height="70dp"
-        android:layout_marginTop="24dp"
-        android:backgroundTint="#7EBD42"
-        android:text="Register Vet"
-        android:textColor="#ffff"
-        android:textSize="26sp"
-        android:textStyle="bold"
-        app:layout_constraintLeft_toLeftOf="parent"
-    app:layout_constraintRight_toRightOf="parent"
-  app:layout_constraintTop_toToBottomOf="@+id/Password"
-    />
-
-
-
+        android:id="@+id/btnRegisterVet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:fontFamily="@font/gift"
+        android:backgroundTint="#265AA9"
+        android:textColor="@color/colorAccent"
+        android:textSize="15dp"
+        android:text="@string/btn_registerVets"/>
 
 </LinearLayout>
+
+
+
+

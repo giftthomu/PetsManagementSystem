@@ -1,12 +1,20 @@
 <resources>
     <string name="app_name">Pets Management</string>
+    <string name="First_Name">First Name</string>
+    <string name="Last_Name">Last Name</string>
+    <string name="Vet_Type">Vet Type</string>
     <string name="enter_name">enter name</string>
+    <string name="enter_FirstName">FirstName</string>
+    <string name="enter_LastName">LastName</string>
     <string name="enter_email">enter email</string>
+    <string name="email">Email Address</string>
     <string name="enter_password">enter password</string>
+    <string name="Password">Password</string>
     <string name="enter_confirm_password">confirm password</string>
     <string name="label_sign_up">Client Registration</string>
     <string name="label_sign_in">Sign In</string>
     <string name="btn_sign_up">Sign Up</string>
+    <string name="btn_registerVets">Register Vet</string>
     <string name="btn_login">Login</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

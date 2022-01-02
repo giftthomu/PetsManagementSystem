@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PetsManagement">
         <activity
+            android:name=".ClientHomePage"
+            android:exported="false" />
+        <activity
+            android:name=".AdminHomePage"
+            android:exported="false" />
+        <activity
+            android:name=".VetHomePage"
+            android:exported="false" />
+        <activity
             android:name=".RegisterVetsActivity"
             android:exported="false" />
         <activity

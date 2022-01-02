@@ -27,17 +27,24 @@ class SignUpActivity : AppCompatActivity() {
         //registering
         btnSignUp.setOnClickListener{
 
-            val userName  = etName.text.toString()
+            val firstname  = etFirstName.text.toString()
+            val lastname  = etLastName.text.toString()
             val email = etEmail.text.toString()
             val password = etPassword.text.toString()
             val confirm = etConfirmPassword.text.toString()
 
-             if(TextUtils.isEmpty(userName)){
-                val snack = Snackbar.make(it,"Username is required", Snackbar.LENGTH_LONG)
+             if(TextUtils.isEmpty(firstname)){
+                val snack = Snackbar.make(it,"firstname is required", Snackbar.LENGTH_LONG)
                 snack.show()
-                 etName.setError("Username is required")
-                 etName.requestFocus()
+                 etFirstName.setError("firstname is required")
+                 etFirstName.requestFocus()
             }
+             else if(TextUtils.isEmpty(lastname)){
+                 val snack = Snackbar.make(it,"lastname is required", Snackbar.LENGTH_LONG)
+                 snack.show()
+                 etLastName.setError("lastname is required")
+                 etLastName.requestFocus()
+             }
             else if(TextUtils.isEmpty(email)){
                 val snack = Snackbar.make(it,"Email is required", Snackbar.LENGTH_LONG)
                 snack.show()
@@ -80,7 +87,8 @@ class SignUpActivity : AppCompatActivity() {
                 var firebaseUser : FirebaseUser = task.result!!.user!!
                 var Client = ClientModel(
                     firebaseUser.uid,
-                    etName.text.toString().trim { it <= ' '},
+                    etFirstName.text.toString().trim { it <= ' '},
+                    etLastName.text.toString().trim { it <= ' '},
                     etEmail.text.toString().trim { it <= ' '},
                     etPassword.text.toString().trim { it <= ' '}
                     )
